@@ -38,7 +38,7 @@ client.on(`ready`, () => {
       if (member.voice.channel.members.size === 1) { return member.voice.channel.leave(); }
     });
 
-client.user.setActivity(`!help Currently in ${client.guilds.cache.size} servers`);
+client.user.setActivity(`>help Currently in ${client.guilds.cache.size} servers`);
 
   }, (5000));
   ////////////////////////////////
