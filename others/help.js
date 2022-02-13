@@ -19,7 +19,7 @@ module.exports = {
     .setTitle("HELP MENU 🔰 Commands")
     .addField('Prefix Information', `Prefix: \`${PREFIX}\`\nYou can also mention ${client.user} to get prefix info.`, false)
     .addField("• Developer", `\`\`\`yml\nName: M4aXim#5591 [405356071989936129]\nName Ξ Notebot [918454634161532949]\`\`\``)
-    .addField("• Important Links", `**[Invite Link](https://discord.com/api/oauth2/authorize?client_id=${client.user.id}&permissions=8388608&scope=bot)\`|\`[Support Server](https://discord.gg/nK4wsFJ3Mx)\**`)
+    .addField("• Important Links", `**[Invite Link](https://discord.com/api/oauth2/authorize?client_id=${client.user.id}&permissions=8388608&scope=bot)\`|\`[Support Server](https://discord.gg/nK4wsFJ3Mx)\|\`[Patreon](https://www.patreon.com/notebot)\**`)
 
       let ifargstruedothis = -1;
       
