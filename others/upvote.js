@@ -15,6 +15,6 @@ module.exports = {
     //react with approve emoji
     message.react("✅");
     //send the Ping embed
-    message.reply(new MessageEmbed().setColor("#F0EAD6").setTitle("https://discordbotlist.com/bots/notebot2/upvote"));
+    message.reply(new MessageEmbed().setColor("#F0EAD6").setTitle("https://discordbotlist.com/bots/notebot-7081"));
   }
 }
