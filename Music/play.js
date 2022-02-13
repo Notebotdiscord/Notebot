@@ -171,6 +171,8 @@ async execute(message, args, client) {
         .addField("Estimated time until playing:", `\`${estimatedtime}\``, true)
         .addField("Position in queue", `**\`${serverQueue.songs.length - 1}\`**`, true)
         .setFooter(`Requested by: ${message.author.username}#${message.author.discriminator}`, message.member.user.displayAvatarURL({ dynamic: true }))
+        .setFooter(`[Support me on patreon](https://www.patreon.com/notebot)`))
+
       //send the Embed into the Queue Channel
         return serverQueue.textChannel
         .send(newsong)
